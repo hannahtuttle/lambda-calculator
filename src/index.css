@@ -4,11 +4,76 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: red;
-  width: 300px;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container{
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: firebrick;
+  padding: 2%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.display{
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding: 3%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+}
+
+.numberButton {
+  border: 1px solid black;
+  display: flex;
+  /* width: 90%; */
+  justify-content: space-around; 
+  flex-wrap: wrap;
+}
+button{
+  /* padding: 2%; */
+  width: 85px;
+  height: 85px;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-top: 5%;
+  border: 1px solid black;
+  color: white;
+  
+}
+.operator{
+  background-color: skyblue;
+}
+.special{
+  background-color: steelblue;
+}
+.number{
+  background-color: mediumblue;
+}
+.allCalcButtons{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.opertorsButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.specialButtons{
+  display: flex;
+  justify-content: space-around; 
 }
